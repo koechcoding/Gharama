@@ -1,0 +1,21 @@
+Post http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+   
+    "fullname":"John Doe",
+    "email":"doej@gmail.com",
+    "password":"123456789",
+    "isAdmin": true
+}
+
+###
+Post http://localhost:5000/auth/login
+Content-Type: application/json
+
+{  
+   
+    "email":"doej@gmail.com",
+    "password":"123456789"
+   
+}
